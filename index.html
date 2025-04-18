@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+  <link rel="stylesheet" href="cssfiles\setting.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="cssfiles\media.css">
+
+  <title>Elias' Portifolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav id="desktop">
+    <div class="logo"><img class="logo-img" src="images\profile.jpg" alt="Logo"></div>
+  
+    <div class="links">
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About Me</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact Me</a></li>
+    </ul>
+  </div>
+  
+  <div class="call">
+    <img class="c-icon" src="images\icons\Vector.svg" alt="Call">
+    <p>+260 974 539 972</p>
+  </div>
+  </nav>
+  <!--desknavEnd-->
+  <!--smallscreenNavStart-->
+  <nav id="smallscreen">
+    <div class="logo"><img src="\images\25 Short Hairstyles for Black Women to Rock 2024.jpg" alt=""></div>
+
+    <div class="h-menu">
+   <div class="h-icon" onclick="toggleMenu">
+    <span></span>
+    <span></span>
+    <span></span>
+   </div>
+<div class="h-links">
+      <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+      <li><a href="#About" onclick="toggleMenu()">About</a></li>
+      <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+      <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+   </div>
+  </div> 
+  </nav>
+<div class="main-container">
+  <div class="header">
+    <div class="left">
+      <h1 class="h1">IT Specialist &<br> Front-end Developer</h1>
+      <p class="p-hero">Proficient in various IT domains with a strong focus on problem-solving, adaptability and keeping up with evolving technologies.</p>
+         <button class="l-button" onclick="window.open('./assets/CV_Elias.pdf')">Download My CV <img class="d-icon" src="images\download (2).svg" alt=""></button>
+
+        <div class="left-bottom">
+          <div class="social">
+            <a href="https://www.github.com/"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i></a>
+          
+          </div>
+          <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="right">
+      <img class="hero-img" src="images\pro.png" alt="">
+    </div>
+  </div>
+
+  <div class="main-box">
+    <section class="about">
+      <p class="a-sub">Get to know</p>
+      <h3 class="a-hed">About Me</h3>
+
+      <div class="about-container">
+        <div class="about-left">
+          <div class="about-img"><img class="a-img" src="images\profile.jpg" alt=""></div>
+          <p>Forem ipsum dolor sit amet, consectetur adipiscing elit.
+             Etiam eu turpis molestie, dictum est a, mattis tellus.
+            Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus,
+            ut interdum tellus elit sed risus. Maecenas eget condimentum velit,
+            sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+            Donec ut rhoncus ex. 
+          </p>
+        </div>
+
+        <div class="about-right">
+          <div class="up">
+
+              <img class="icon" src="images\icons\Student Male.svg" alt="">
+              <p class="hea">Education</p>
+              <p class="cont">B.I.T Bachelors Degree</p>
+
+          
+           
+          </div>
+          <div class="down">down</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+  <!--heroStart-->
+
+  <script src="Script.js"></script>
+</body>
+</html>
