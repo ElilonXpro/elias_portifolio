@@ -1,0 +1,17 @@
+@media screen and (max-width: 1200px){
+
+  #desktop{
+    display: none;
+  }
+
+  #smallscreen{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+  
+    width: 50px;
+  }
+}
+  
